@@ -22,7 +22,61 @@
 body {    
     font-family: 'Inter', sans-serif, Helvetica;
     color: #343a40;
-    line-height: 1;
+    line-height: 1;    
+}
+
+.container {
     display: flex;
     justify-content: center;
 }
+
+.navbar {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    gap: 0px;
+    background-color: #212529;
+    align-items: center;
+    /* justify-content: start; */
+    padding: 0 32px 0 0;    
+}
+
+.store-meta {
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    flex-grow: 1;
+    gap: 8px;
+}
+.store-meta--icon {
+    stroke: #fff;    
+    width: 32px;
+}
+.store-meta--name {
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    flex-basis: auto;
+    align-items: flex-end;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+}
+
+a.selected {
+   background-color: #5dad69; 
+}
+
+a:hover, 
+a:active {
+    background-color: #343a40;
+}
+
+
+
